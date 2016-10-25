@@ -1,4 +1,4 @@
-angular.module('OWMApp', ['ngRoute'])
+angular.module('OWMApp', ['ngRoute', 'ngAnimate'])
     .config(['$routeProvider', function($routeProvider) {
         $routeProvider.when('/', {
                 templateUrl: 'home.html',
